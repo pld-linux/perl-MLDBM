@@ -3,7 +3,7 @@ Summary:	MLDBM perl module
 Summary(pl):	Modu³ perla MLDBM
 Name:		perl-MLDBM
 Version:	2.00
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
