@@ -6,6 +6,7 @@
 %define		pdir	MLDBM
 %define		pnam	MLDBM
 Summary:	MLDBM - store multi-level hash structure in single level tied hash
+Summary(pl):	MLDBM - przechowywanie wielopoziomowej structury haszy w jednopoziomowym haszu zwi±zanym
 Name:		perl-MLDBM
 Version:	2.01
 Release:	2
@@ -21,7 +22,17 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-MLDBM - store multi-level hash structure in single level tied hash.
+MLDBM Perl module can serve as a transparent interface to any TIEHASH
+package that is required to store arbitrary perl data, including
+nested references. Thus, this module can be used for storing
+references and other arbitrary data within DBM databases.
+
+%description
+Modu³ Perla MLDBM mo¿e s³u¿yæ za przezroczysty interfejs do dowolnego
+pakietu TIEHASH, od którego wymaga siê przechowywania dowolnych danych
+perla, w³±cznie z zagnie¿d¿onymi referencjami. Zatem modu³ ten s³u¿y
+do przychowywania referencji oraz innych dowolnych danych w bazach
+DBM.
 
 %prep
 %setup -q -n %{pnam}-%{version}
