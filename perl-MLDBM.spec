@@ -6,7 +6,7 @@
 %define	pdir	MLDBM
 %define	pnam	MLDBM
 Summary:	MLDBM - store multi-level hash structure in single level tied hash
-Summary(pl):	MLDBM - przechowywanie wielopoziomowej structury haszy w jednopoziomowym haszu zwi±zanym
+Summary(pl):	MLDBM - przechowywanie wielopoziomowej struktury haszy w jednopoziomowym haszu zwi±zanym
 Name:		perl-MLDBM
 Version:	2.01
 Release:	4
