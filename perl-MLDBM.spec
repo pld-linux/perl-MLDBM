@@ -24,7 +24,7 @@ Summary(uk):	Модуль для Perl MLDBM
 Summary(zh_CN):	MLDBM Perl дё©И
 Name:		perl-MLDBM
 Version:	2.01
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
