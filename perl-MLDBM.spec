@@ -10,7 +10,8 @@ Summary(pl):	MLDBM - przechowywanie wielopoziomowej structury haszy w jednopozio
 Name:		perl-MLDBM
 Version:	2.01
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 # Source0-md5:	99550ae2cffbc0bb3eb0358631077c10
