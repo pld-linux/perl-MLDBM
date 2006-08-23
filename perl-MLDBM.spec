@@ -18,10 +18,6 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-FreezeThaw
-%if %{with autodeps} || %{with tests}
-BuildRequires:	perl-MLDBM
-BuildRequires:	perl-Test-Pod >= 1
-%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
