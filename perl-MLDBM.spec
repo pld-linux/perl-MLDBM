@@ -8,13 +8,13 @@
 Summary:	MLDBM - store multi-level hash structure in single level tied hash
 Summary(pl.UTF-8):	MLDBM - przechowywanie wielopoziomowej struktury haszy w jednopoziomowym haszu związanym
 Name:		perl-MLDBM
-Version:	2.04
+Version:	2.05
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
-# Source0-md5:	b2793c419136fc11082e1ed1b564aeff
+# Source0-md5:	9b7ec37bfc36b0e83db9323be92beb50
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-FreezeThaw
