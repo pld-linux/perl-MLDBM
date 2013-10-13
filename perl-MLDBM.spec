@@ -13,11 +13,14 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/MLDBM/%{pnam}-%{version}.tar.gz
 # Source0-md5:	9b7ec37bfc36b0e83db9323be92beb50
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/MLDBM/
+BuildRequires:	perl(Data::Dumper) >= 2.08
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-FreezeThaw
+%{?with_tests:BuildRequires:	perl-Test-Simple}
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -58,4 +61,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorlib}/MLDBM.pm
 %{perl_vendorlib}/MLDBM
-%{_mandir}/man3/*
+%{_mandir}/man3/MLDBM.3pm*
