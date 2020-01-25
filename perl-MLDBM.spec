@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	MLDBM
 %define		pnam	MLDBM
 Summary:	MLDBM - store multi-level hash structure in single level tied hash
