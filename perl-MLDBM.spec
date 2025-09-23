@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	MLDBM
 %define		pnam	MLDBM
@@ -12,14 +12,15 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/MLDBM/%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/MLDBM/%{pnam}-%{version}.tar.gz
 # Source0-md5:	9b7ec37bfc36b0e83db9323be92beb50
-URL:		http://search.cpan.org/dist/MLDBM/
+URL:		https://metacpan.org/dist/MLDBM
 BuildRequires:	perl(Data::Dumper) >= 2.08
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-FreezeThaw
 %{?with_tests:BuildRequires:	perl-Test-Simple}
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
